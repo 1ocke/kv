@@ -1,21 +1,10 @@
-# KV
+# Elixir key_value store
 
-**TODO: Add description**
+An in-memory key-value data store that exposes a HTTP REST interface.
 
-## Installation
+To start the Phoenix app:
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `kv` to your list of dependencies in `mix.exs`:
+  * Install dependencies with `mix deps.get`
+  * Start Phoenix endpoint with `mix phoenix.server`
 
-```elixir
-def deps do
-  [
-    {:kv, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/kv](https://hexdocs.pm/kv).
-
+Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
